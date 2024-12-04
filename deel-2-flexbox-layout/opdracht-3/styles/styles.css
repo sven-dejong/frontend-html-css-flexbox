@@ -1,1 +1,49 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 10%;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+}

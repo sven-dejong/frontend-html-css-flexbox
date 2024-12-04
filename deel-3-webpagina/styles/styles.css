@@ -1,1 +1,29 @@
 /*Schrijf hier jouw css*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #F2F3D9;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    border: 3px dotted red;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article {
+    background-color: #C16E70;
+    flex-basis: 280px;
+    min-height: 350px;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+}

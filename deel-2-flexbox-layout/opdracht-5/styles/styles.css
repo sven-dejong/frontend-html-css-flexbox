@@ -1,1 +1,37 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    border: 3px dotted red;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ header {
+     display: flex;
+     flex-direction: column;
+     flex-basis: 100%;
+ }
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    flex-basis: 60%;
+    order: 2;
+}
+
+nav {
+    flex-basis: 20%;
+    order: 1;
+}
+
+aside {
+    flex-basis: 20%;
+    order: 3;
+}
+
+footer {
+    flex-basis: 20%;
+}
